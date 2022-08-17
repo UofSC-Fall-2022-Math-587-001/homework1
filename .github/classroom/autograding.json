@@ -13,7 +13,7 @@
       {
         "name": "Enciphering test 1",
         "setup": "",
-        "run": "go run cipher.go",
+        "run": "HOME='/home/runner' go run cipher.go",
         "input" : "Not The Same",
         "output": "sty ymj xfrj",
         "comparison": "included",
