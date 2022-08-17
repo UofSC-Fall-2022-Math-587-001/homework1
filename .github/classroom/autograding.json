@@ -13,8 +13,8 @@
       {
         "name": "Enciphering test 1",
         "setup": "",
-        "run": "HOME='/home/runner' go run cipher.go",
-        "input" : "Not The Same",
+        "run": "HOME='/home/runner' go run cipher.go && Not The Same",
+        "input" : "",
         "output": "sty ymj xfrj",
         "comparison": "included",
         "timeout": 5,
