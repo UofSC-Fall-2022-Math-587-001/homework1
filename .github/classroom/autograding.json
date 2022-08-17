@@ -9,7 +9,7 @@
         "comparison": "included",
         "timeout": 5,
         "points": 0
-      }
+      },
       {
         "name": "Enciphering test 1",
         "setup": "",
@@ -19,7 +19,7 @@
         "comparison": "included",
         "timeout": 5,
         "points": 1
-      }
+      },
       {
         "name": "Enciphering test 2",
         "setup": "",
@@ -29,7 +29,7 @@
         "comparison": "included",
         "timeout": 5,
         "points": 1
-      }
+      },
       {
         "name": "Enciphering test 3",
         "setup": "",
@@ -39,7 +39,7 @@
         "comparison": "included",
         "timeout": 5,
         "points": 1
-      }
+      },
       {
         "name": "Enciphering test 4",
         "setup": "",
@@ -49,7 +49,7 @@
         "comparison": "included",
         "timeout": 5,
         "points": 1
-      }
+      },
       {
         "name": "Enciphering test 5",
         "setup": "",
