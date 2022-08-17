@@ -1,0 +1,64 @@
+{
+    "tests": [
+      {
+        "name": "Checking the format of the submission",
+        "setup": "",
+        "run": "file --mime-type solutions.pdf",
+        "input" : "",
+        "output": "application/pdf",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 0
+      }
+      {
+        "name": "Enciphering test 1",
+        "setup": "",
+        "run": "go run cipher.go",
+        "input" : "Not The Same",
+        "output": "sty ymj xfrj",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      }
+      {
+        "name": "Enciphering test 2",
+        "setup": "",
+        "run": "go run cipher.go",
+        "input" : "Tell The Truth",
+        "output": "yjqq ymj ywzym",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      }
+      {
+        "name": "Enciphering test 3",
+        "setup": "",
+        "run": "go run cipher.go",
+        "input" : "Burrr",
+        "output": "gzwww",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      }
+      {
+        "name": "Enciphering test 4",
+        "setup": "",
+        "run": "go run cipher.go",
+        "input" : "What You Hollin",
+        "output": "bmfy dtz mtqqns",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      }
+      {
+        "name": "Enciphering test 5",
+        "setup": "",
+        "run": "go run cipher.go",
+        "input" : "Real Ones",
+        "output": "wjfq tsjx",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      }
+    ]
+  }
