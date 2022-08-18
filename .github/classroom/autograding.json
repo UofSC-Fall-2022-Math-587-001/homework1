@@ -13,9 +13,9 @@
       {
         "name": "Enciphering test 1",
         "setup": "",
-        "run": "HOME='/home/runner' go run cipher.go && Not The Same",
+        "run": "HOME='/home/runner' go test -run 1",
         "input" : "",
-        "output": "sty ymj xfrj",
+        "output": "PASS",
         "comparison": "included",
         "timeout": 5,
         "points": 1
@@ -23,9 +23,9 @@
       {
         "name": "Enciphering test 2",
         "setup": "",
-        "run": "go run cipher.go",
-        "input" : "Tell The Truth",
-        "output": "yjqq ymj ywzym",
+        "run": "HOME='/home/runner' go test -run 2",
+        "input" : "",
+        "output": "PASS",
         "comparison": "included",
         "timeout": 5,
         "points": 1
@@ -33,9 +33,9 @@
       {
         "name": "Enciphering test 3",
         "setup": "",
-        "run": "go run cipher.go",
-        "input" : "Burrr",
-        "output": "gzwww",
+        "run": "HOME='/home/runner' go test -run 3",
+        "input" : "",
+        "output": "PASS",
         "comparison": "included",
         "timeout": 5,
         "points": 1
@@ -43,9 +43,9 @@
       {
         "name": "Enciphering test 4",
         "setup": "",
-        "run": "go run cipher.go",
-        "input" : "What You Hollin",
-        "output": "bmfy dtz mtqqns",
+        "run": "HOME='/home/runner' go test -run 4",
+        "input" : "",
+        "output": "PASS",
         "comparison": "included",
         "timeout": 5,
         "points": 1
@@ -53,9 +53,9 @@
       {
         "name": "Enciphering test 5",
         "setup": "",
-        "run": "go run cipher.go",
-        "input" : "Real Ones",
-        "output": "wjfq tsjx",
+        "run": "HOME='/home/runner' go test -run 5",
+        "input" : "",
+        "output": "PASS",
         "comparison": "included",
         "timeout": 5,
         "points": 1
