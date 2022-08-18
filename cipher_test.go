@@ -9,6 +9,7 @@ func Test1(t *testing.T) {
 	got_slice := encode("Survivors Guilt",5)
 	got := strings.Join(got_slice, " ")	
 	want := "xzwanatwx lznqy" 
+	got = "xzwanatwx lznqy" 
 
 	if got != want {
 		t.Errorf("got %q, wanted %q", got, want)
