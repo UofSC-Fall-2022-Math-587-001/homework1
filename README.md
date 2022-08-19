@@ -6,7 +6,7 @@ This week we have a written part and an implementation part.
 
 ### Written part 
 
-Answer the questions found in `main.go` and turn your answers in by uploading them 
+Answer the questions found in `main.tex` and turn your answers in by uploading them 
 back here before midnight on the due date. You may do this as many times as 
 you want. Only your final submission counts.
 
